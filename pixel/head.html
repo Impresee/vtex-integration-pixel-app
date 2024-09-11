@@ -1,6 +1,6 @@
 <script>
   (function() {
-    var impreseeScriptSrc = "{{settings.impreseeScriptUrl}}";
+    var impreseeScriptSrc = decodeURIComponent("{{settings.impreseeScriptUrl}}");
     if (!impreseeScriptSrc) {
       console.error('Warning: No Impresee Script URL is defined. Please configure it in the apps admin.');
       return
