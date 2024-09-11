@@ -1,0 +1,16 @@
+<script>
+  (function() {
+    var impreseeScriptSrc = "{{settings.impreseeScriptUrl}}";
+    if (!impreseeScriptSrc) {
+      console.error('Warning: No Impresee Script URL is defined. Please configure it in the apps admin.');
+      return
+    }
+    var impreseeScript = document.createElement("script");
+    impreseeScript.type = "text/javascript";
+    impreseeScript.async = true;
+    impreseeScript.src = impreseeScriptSrc;
+    var _wsee_first = document.getElementsByTagName("script")[0];
+    _wsee_first.parentNode.insertBefore(impreseeScript, _wsee_first);
+  })()
+</script>
+
