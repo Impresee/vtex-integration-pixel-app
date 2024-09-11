@@ -1,7 +1,7 @@
 {
   "name": "impresee-script-integration-app",
   "vendor": "meikrem",
-  "version": "1.0.0-beta.0",
+  "version": "0.0.1",
   "title": "Impresee Script Integration App",
   "description": "App used to include Impresee script into a VTEX site",
   "builders": {
@@ -14,7 +14,7 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "Impresee Script Integration App",
+    "title": "impresee-script-integration-app",
     "type": "object",
     "properties": {
       "impreseeScriptUrl": {
