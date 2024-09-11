@@ -1,11 +1,11 @@
 <script>
   (function() {
     var parsedStore = "{{settings.impreseeScriptUrl}}".toLowerCase().replaceAll(' ', '_');
-    var impreseeScriptSrc = "https://cdn.impresee.com/integrations/"+parsedStore+".js";
-    if (!impreseeScriptSrc) {
-      console.error('Warning: No Impresee Script URL is defined. Please configure it in the apps admin.');
+    if (!parsedStore) {
+      console.error('Warning: No Impresee Script name is defined. Please configure it in the apps admin.');
       return
     }
+    var impreseeScriptSrc = "https://cdn.impresee.com/integrations/" + parsedStore + ".js";
     var impreseeScript = document.createElement("script");
     impreseeScript.type = "text/javascript";
     impreseeScript.async = true;
