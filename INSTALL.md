@@ -14,4 +14,5 @@ To configure the app go to the VTEX admin and then:
 
 1. Navigate to Apps > App Management
 2. Find the app **Impresee Script Integration App**, and click on it.
+3. Put the name of the store in the **Impresee script name** field
 3. Click on **Save**

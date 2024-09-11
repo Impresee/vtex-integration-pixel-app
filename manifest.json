@@ -18,8 +18,8 @@
     "type": "object",
     "properties": {
       "impreseeScriptUrl": {
-        "title": "Impresee script URL",
-        "description": "Enter the URL of your Impresee script",
+        "title": "Impresee script name",
+        "description": "Enter the name of your store",
         "type": "string"
       }
     }
