@@ -6,8 +6,9 @@ Then follow these steps:
 1. Clone the app repository
 2. Navigate to the app repository
 3. Login into the store's account `vtex login {storeAccount}`
-4. Publish the app `vtex publish`
-5. Install the app `vtex install`
+4. Change the vendor in `manifest.json` to the name of the store
+5. Publish the app `vtex publish`
+6. Install the app `vtex install`
 
 You can now leave the app repository.
 To configure the app go to the VTEX admin and then:
